@@ -1,0 +1,133 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Manrope:wght@300&family=Montserrat:wght@300&family=Nunito&family=Poppins:wght@300&family=Roboto+Condensed&display=swap');
+
+
+*{
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+a:link{
+    color: black;
+}
+a:visited{
+    color: black;
+}
+a:active{
+    color:black
+}
+
+body {
+    background-color: rgb(240, 240, 241);
+}
+
+header{
+    display:flex;
+    justify-content: center;
+    gap:50px;
+    margin: 40px auto;
+
+}
+.high
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:200;
+    margin-bottom: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.button{
+    color: black;
+    height: 22px;
+    border-radius: 15px;
+    background-color: rgb(213, 55, 55);
+}
+
+.log{
+    display: flex;
+    gap:20px;
+}
+
+.log a {
+    height: 20px;
+    width:105px;
+    border:solid rgb(213, 55, 55) 1px; 
+    border-radius: 20px;
+    font-size: 20px;
+
+}
+
+.down{
+    display:flex;
+    justify-content: space-between;
+}
+.link{
+    text-transform: uppercase;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 500;
+    margin-top: 20px;
+    display:flex;
+    gap:30px;
+    font-size: larger;
+}
+
+
+.icone-search{
+    margin-top: 20px;
+}
+
+.all-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-image: url('../img/teslaaa.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100vh;
+    opacity: 0.9;
+
+}
+
+.all-title h1{
+    font-size: 60px;
+    color: rgb(213, 55, 55);
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.all-title h2{
+    font-family:'Times New Roman', Times, serif;
+    font-size:30px;
+    font-style: italic;
+    color: bisque;
+}
+.all-title p {
+    font-size:20px;
+    color:bisque
+}
+
+
+.row{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:rgb(247, 247, 242);
+    background-color: rgb(23, 22, 22);
+    display: flex;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+}
+
+.row a {
+    color: white;
+}
+
+.row h3 {
+    text-transform: uppercase;
+}
+
+
+
+

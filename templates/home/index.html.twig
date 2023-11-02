@@ -1,0 +1,77 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Car solution{% endblock %}
+
+{% block body %}
+    <link rel="stylesheet" href="{{asset('assets/styles/app.css')}}">
+    <link rel="stylesheet" href="{{asset('assets/styles/home.css')}}">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <main >
+    
+    <div class="all-title">
+    <h2>Votre destination pour trouver la voiture de vos rêves en un seul clic</h2>
+    <h1 class="montitre">
+    {{Title}}: La Source pour Vos Besoins en Voiture
+    </h1>
+    <p>Simplifiez votre recherche de voiture, découvrez des solutions sans effort avec Car Solution</p>
+    </div>
+
+
+
+    <div class="home-container">
+
+    <div class="home-sections">
+    <p class="acc">Acceuil</p>
+    <p class="presentation"> <span class="welcome">B</span> ienvenue  sur Car Solution, votre portail ultime pour l'univers automobile. Que vous soyez à la recherche de la dernière voiture neuve, d'une voiture d'occasion de qualité, ou que vous souhaitiez profiter de notre service de vente exceptionnel, nous mettons à votre disposition une expérience de recherche et d'achat de voitures sans pareille. Avec une sélection complète de marques populaires et les tout derniers modèles, nous simplifions votre voyage vers la voiture de vos rêves. Laissez-nous vous guider sur la route de la satisfaction automobile.</p>
+<hr>
+    <div class="sections">
+        <div class="s1">
+        <h3>Nos véhicules</h3><br><br>
+            <img src="../images/section1.jpg" alt=""><br>
+            <p>Découvrez les derniers modèles de voitures neuves et d'occasions.</p><br>
+            <a href="">Acceder <i class="fa-thin fa-arrow-right"></i></a>
+        </div>
+
+        <div class="s1">
+        <h3>Actualités</h3><br><br>
+            <img src="../images/section4.jpg" alt=""><br>
+            <p>Restez à la pointe de l'industrie automobile avec nos dernières actualités et mises à jour.</p><br>
+            <a href="">Acceder <i class="fa-thin fa-arrow-right"></i></a>
+        </div>
+        <div class="s1">
+        <h3>Marques populaires</h3><br><br>
+            <img src="../images/section2.jpg" alt=""><br>
+            <p>Découvrez les marques automobiles les plus prisées du marché.</p><br>
+            <a href="">Acceder <i class="fa-thin fa-arrow-right"></i></a>
+        </div>
+        <div class="s1">
+        <h3>Dernières collections</h3><br><br>
+            <img src="../images/section3.jpg" alt=""><br>
+            <p>Explorez nos toutes dernières arrivées, les voitures les plus modernes et innovantes.</p><br>
+            <a href="">Acceder <i class="fa-thin fa-arrow-right"></i></a>
+        </div>
+    </div>
+    </div>
+        <aside class="side-bar">
+        <img src="../images/logovoiture.jpg" alt="">
+        <hr><br><hr>
+        <p>Bienvenue sur Car Solution, l'endroit où les passionnés d'automobile et les acheteurs avertis se retrouvent. Notre mission est de rendre la recherche et l'achat de voitures plus simples et plus agréables que jamais. Avec une gamme complète de voitures neuves, d'occasion de qualité et un service de vente exceptionnel, notre site offre une expérience automobile complète. Explorez les dernières tendances et les marques populaires, trouvez la voiture idéale qui correspond à votre style de vie, à votre budget, et bénéficiez de notre expertise pour guider chaque étape de votre parcours automobile. Bienvenue à bord de Car Solution, votre destination en ligne pour tout ce qui concerne les voitures</p>
+        <hr><br> <hr>
+
+        <div class="icone-env">
+        <i class="fa-regular fa-envelope" >. </i> <p>CAR SOLUTIONS <br>Adresse mail <br> Car.solution@gmail.com</p>
+        </div>
+
+        <hr><br><hr>
+        <div class="renseignement">
+        NOUS CONTACTER?
+        <p> 01 94 94 75 75
+        Car.solution@gmail.com <br>
+        Lundi à Vendredi de 10:00 à 18:00</p>
+        </div>
+        </aside>
+    </div>
+   
+    </main>
+{% endblock %}

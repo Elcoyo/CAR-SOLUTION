@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+.presentation{
+    font-family: 'Open Sans', sans-serif;
+}
+.acc{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 70px;
+    color: rgb(63, 63, 63);
+    font-weight: bold;
+}
+.welcome{
+    font-weight: bolder;
+    font-size: 90px;
+    color: rgb(63, 63, 63);
+}
+
+.home-container{
+    margin: 10px 50px;
+    display: flex;
+
+}
+
+.home-sections{
+    margin-right: 50px;
+
+}
+
+.sections{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap:wrap ;
+    gap: 30px;
+}
+
+
+.s1{
+    /* text-align: center; */
+    width: 450px;
+    margin-top: 20px;
+}
+
+.s1 h3{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(63, 63, 63);
+}
+.s1 p {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+.s1 a {
+    width: 30px;
+    background-color: rgb(213, 55, 55);
+    font-size: 28px ;
+    border-radius: 15px;
+
+}
+.side-bar{
+width: 300px;
+font-family: 'Poppins', sans-serif;
+
+}
+
+.icone-env{
+    display: flex;
+    padding: auto 10px;
+}
+
